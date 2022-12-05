@@ -1,0 +1,32 @@
+.hello {
+  margin-top: 131px;
+  height: 278px;
+}
+
+.hello__container {
+  position: relative;
+}
+
+.hello__title {
+  position: absolute;
+  float: left;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  max-width: 511px;
+  }
+
+.hello__subtitle {
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  top: 224.5px;
+}  
+
+.hello__button {
+  position: absolute;
+  top: 278px;
+}

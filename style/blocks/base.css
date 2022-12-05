@@ -1,0 +1,182 @@
+html {
+	font-family: "Open Sans";
+	font-size: 16px;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: rgb(41, 59, 30);  /*временное окрашивание фона*/
+	color: rgb(255, 255, 255);
+	margin: 0;
+}
+
+button {
+	border: 0;
+	cursor: pointer;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+  display: block;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.wrapper {
+	/*overflow: hidden;*/
+	height: 100%;
+}
+
+.wrapper__content {
+	position: relative;
+	height: 100%;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	max-width: 1141px;
+}
+
+.logo, .menu, .menu__item, .contacts {
+	display: inline-block;
+}
+
+.logo, .contacts {
+	margin-top: 29px;
+}
+
+.logo {
+	float: left;
+}
+
+.contacts {
+	float: right;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.menu {
+	margin-top: 43px;
+	margin-left: 79px;
+}
+
+.menu__item {
+	margin-right: 54px;
+}
+
+.menu__item:last-child {
+	margin-right: 0;
+}
+
+.contacts__phone {
+	font-size: 26px;
+	line-height: 35px;
+}
+
+.contacts__info {
+	float: right;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 49px;
+}
+
+.title--dark {
+	color: #000;
+}
+
+.button {
+	width: 168px;
+	padding: 18px 0;
+	background: #F5170E;
+	border-radius: 35px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.paginator {
+  margin-top: 57.5px;
+}
+
+.paginator__container {
+	text-align: center;
+}
+
+.paginator__display, .paginator__list {
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.paginator__display {
+	margin-right: 25px;
+}
+
+.paginator__item {
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.paginator__item--active .paginator__link {
+	background: #FFFFFF;
+	color: #F5170E;
+}
+
+.paginator__link {
+	display: block;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 32px;
+}
+
+.footer {
+	margin-top: 53px;
+	height: 146px;
+}

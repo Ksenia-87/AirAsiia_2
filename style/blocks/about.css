@@ -1,0 +1,47 @@
+.about {
+  margin-top: 152.5px;
+  height: 552px;
+}
+
+.about__container{
+  position: relative;
+}
+
+.about__background {
+  float: left;
+  border-radius: 5px;
+}
+
+.about__content {
+  position: absolute;
+  top: 97px;
+  right: 0;
+  width: 785px;
+  height: 455px;
+}
+
+.about__info {
+  position: absolute;
+  top: 70px;
+  right: 81px;
+  left: 81px;
+  bottom: 66px;
+}  
+
+.about__foreground {
+  border-radius: 5px;
+}
+
+.about__text {
+  margin-top: 37px;
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  max-width: 502px;
+}
+
+.about__button {
+	margin-top: 43px;
+}

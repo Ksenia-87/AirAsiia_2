@@ -1,0 +1,92 @@
+.offers {
+  margin-top: 264px;
+  height: 549px;
+}
+
+.offers__container{
+  position: relative;
+}
+
+.offer_title {
+  position: relative;
+  float: left;
+}
+
+.title--fire::after {
+  content: "";
+  background: url(../../img/flame.png) no-repeat;
+  position: absolute;
+  margin-left: 12px;
+  width: 21px;
+  height:28px;
+  transform: translate(0%, 50%);
+}
+
+.offers__list {
+  position: absolute;
+  margin-top: 100px;
+}
+
+.offers__item {
+  min-height: 449px;
+  width: 362px;
+  background: #fff;
+  border-radius: 0px 0px 5px 5px;
+  display: inline-block;
+  margin-right: 23px;
+}
+
+.offers__item:last-child {
+  margin-right: 0;
+}
+
+.offers_img {
+  min-height: 144px;
+  margin-bottom: 33px;
+}
+
+.offers__content {
+  padding: 26px 20px;
+  color: #303030;
+}
+
+.offers__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 21px;
+}
+
+.offers__feature {
+  display: inline-block;
+  margin-right: 28px;
+}
+
+.offers__feature-icon {
+  display: inline-block;
+  margin-right: 10px;
+  width: 26px;
+  height: 26px;
+}
+
+.offers__feature-text {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 90px;
+  margin-right: 0;
+}
+
+.offers__text {
+  margin-top: 25.5px;
+}
+
+.button-light {
+  margin-top: 24.5px;
+  background: #fff;
+  color: #F5170E;
+  border: 1px solid #F5170E;
+}
