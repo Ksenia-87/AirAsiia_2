@@ -11,7 +11,7 @@ html {
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	/*background-color: rgb(41, 59, 30); временное окрашивание фона*/
+	/*background-color: rgb(41, 59, 30); */
 	color: rgb(255, 255, 255);
 	margin: 0;
 }
@@ -62,15 +62,19 @@ img {
 .wrapper {
 	/*overflow: hidden;*/
 	height: 100%;
-}
-
-.main__page--wrapper {
-	background: url("./img/back.jpg");
-	background-repeat: no-repeat;
+	background-color: #001821;
+	background-size: cover;
 }
 
 .wrapper__content {
 	position: relative;
+}
+
+.main__page--wrapper {
+	background: url("../../img/back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .container {
@@ -182,12 +186,6 @@ img {
 	line-height: 32px;
 }
 
-.footer__container {
-	position: relative;
-	height: 146px;
-	margin-top: 100px;
-}
-
 .social__item {
 	display: inline-block;
 	vertical-align: middle;
@@ -203,4 +201,16 @@ img {
 	position: absolute;
 	top: 35px;
 	right: 300px;
+}
+
+.footer {
+	background-color: #001821;
+}
+
+.footer__container {
+	position: relative;
+	height: 146px;
+
+	background-color: #001821;
+	background-size: cover;
 }
