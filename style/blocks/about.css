@@ -1,6 +1,6 @@
 .about {
   margin-top: 152.5px;
-  height: 552px;
+  height: auto;
 }
 
 .about__container{
@@ -17,7 +17,6 @@
   top: 97px;
   right: 0;
   width: 785px;
-  height: 455px;
 }
 
 .about__info {
