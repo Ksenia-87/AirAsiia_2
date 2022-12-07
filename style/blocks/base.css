@@ -96,16 +96,7 @@ img {
 	float: left;
 }
 
-.contacts {
-	float: right;
-	font-style: normal;
-	font-weight: 400;
-}
 
-.contacts__call {
-	color: #9A9A9A;
-	font-size: 11px;
-}
 
 .menu {
 	margin-top: 43px;
@@ -120,13 +111,40 @@ img {
 	margin-right: 0;
 }
 
+.menu__link {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.contacts {
+	position: relative;
+	float: right;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.contacts__call {
+	position: absolute;
+	float: right;
+	color: #9A9A9A;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 20px;
+}
+
 .contacts__phone {
 	font-size: 26px;
 	line-height: 35px;
+	margin-top: 20px;
 }
 
 .contacts__info {
 	float: right;
+	font-style: normal;
+	font-weight: 400;
 	font-size: 13px;
 	line-height: 20px;
 }
@@ -165,6 +183,10 @@ img {
 
 .paginator__display {
 	margin-right: 25px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
 }
 
 .paginator__item {

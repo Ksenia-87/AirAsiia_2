@@ -10,6 +10,10 @@
 .offer_title {
   position: relative;
   float: left;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
 }
 
 .title--fire::after {
@@ -82,7 +86,11 @@
 
 .offers__text {
   margin-top: 25.5px;
-}
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  }
 
 .button-light {
   font-style: normal;

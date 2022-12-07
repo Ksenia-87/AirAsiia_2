@@ -29,4 +29,8 @@
 .hello__button {
   position: absolute;
   top: 278px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
 }

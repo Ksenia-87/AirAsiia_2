@@ -11,6 +11,10 @@
 .news__supertitle {
   position: absolute;
   float: left;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
 
 }
 .news__stock {
@@ -49,7 +53,10 @@ bottom: 20px;
 }
 
 .news__date {
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
+  line-height: 21px;
 }
 
 .news__title {
@@ -63,5 +70,9 @@ bottom: 20px;
 
 .news__text {
   margin-top: 3.5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
   }
 
